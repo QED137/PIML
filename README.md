@@ -1,9 +1,15 @@
 # PDE Solver with Physics-Informed Neural Networks (PINNs)
 
-This repository contains a Python implementation of a solver for a partial differential equation (PDE) using Physics-Informed Neural Networks (PINNs). The solver utilizes finite difference methods for numerical integration and a neural network to approximate the solution.
+Physics-Informed Neural Networks (PINNs) are a powerful scientific machine-learning technique used to solve problems involving Partial Differential Equations (PDEs). Unlike traditional numerical methods, PINNs approximate PDE solutions by training a neural network to minimize a loss function. This loss function includes terms reflecting the initial and boundary conditions along the space-time domain’s boundary and the PDE residual at selected points in the domain, known as collocation points.
 
-## Introduction
+## Key Concept
 
-This project aims to demonstrate the application of PINNs in solving PDEs. PINNs combine physical knowledge encoded in the form of PDEs with data-driven learning using neural networks to efficiently solve complex physical systems.
+    Residual Network: PINNs incorporate a residual network that encodes the governing physics equations, allowing them to learn the underlying physics of the problem.
+    
+    Unsupervised Training: PINNs operate as an unsupervised strategy, eliminating the need for labeled data or prior simulations.
+    
+    Mesh-Free Technique: PINNs transform the problem of directly solving PDEs into a loss function optimization problem, making them a mesh-free technique.
+    
+    Physics-Driven Learning: By integrating the mathematical model into the network and reinforcing the loss function with a residual term from the governing equation, PINNs leverage structured prior knowledge about the solution.
 
 
