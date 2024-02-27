@@ -4,12 +4,12 @@ Physics-Informed Neural Networks (PINNs) are a powerful scientific machine-learn
 
 ## Key Concept
 
-Residual Network: PINNs incorporate a residual network that encodes the governing physics equations, allowing them to learn the underlying physics of the problem.
+-Residual Network: PINNs incorporate a residual network that encodes the governing physics equations, allowing them to learn the underlying physics of the problem.
     
-Unsupervised Training: PINNs operate as an unsupervised strategy, eliminating the need for labeled data or prior simulations.
+-Unsupervised Training: PINNs operate as an unsupervised strategy, eliminating the need for labeled data or prior simulations.
     
-Mesh-Free Technique: PINNs transform the problem of directly solving PDEs into a loss function optimization problem, making them a mesh-free technique.
+-Mesh-Free Technique: PINNs transform the problem of directly solving PDEs into a loss function optimization problem, making them a mesh-free technique.
     
-Physics-Driven Learning: By integrating the mathematical model into the network and reinforcing the loss function with a residual term from the governing equation, PINNs leverage structured prior knowledge about the solution.
+-Physics-Driven Learning: By integrating the mathematical model into the network and reinforcing the loss function with a residual term from the governing equation, PINNs leverage structured prior knowledge about the solution.
 
 
